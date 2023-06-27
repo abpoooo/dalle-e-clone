@@ -25,6 +25,7 @@ const Home = () => {
         headers: {
           "Content-Type": "application/json",
         },
+        //
       });
       if (response.ok) {
         const result = await response.json();
